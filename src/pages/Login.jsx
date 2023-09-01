@@ -1,9 +1,11 @@
-import React from 'react'
+import { FormInput } from '../components';
 
 const Login = () => {
-    return (
-        <div>Login</div>
-    )
-}
+  return (
+    <div>
+      <FormInput label="email" type="email" name="email" />
+    </div>
+  );
+};
 
-export default Login
+export default Login;
