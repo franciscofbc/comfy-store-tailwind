@@ -1,19 +1,21 @@
-import { FeaturedProducts, Hero } from "../components";
-import { customFetch } from "../utils";
+import { FeaturedProducts, Hero } from '../components';
+import { customFetch } from '../utils';
 
-const url = '/products?featured=true'
+const url = '/products?featured=true';
 
 export const loader = async () => {
-  const response = await customFetch.get(url)
-  const products = response.data.data
-  return { products }
-}
+  const response = await customFetch.get(url);
+  const products = response.data.data;
+  return { products };
+};
 
 const Landing = () => {
-  return <>
-    <Hero />
-    <FeaturedProducts />
-  </>
+  return (
+    <>
+      <Hero />
+      <FeaturedProducts />
+    </>
+  );
 };
 
 export default Landing;
