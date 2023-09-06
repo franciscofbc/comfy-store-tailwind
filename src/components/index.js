@@ -10,3 +10,5 @@ export { default as PaginationContainer } from './PaginationContainer';
 export { default as ProductsContainer } from './ProductsContainer';
 export { default as SectionTitle } from './SectionTitle';
 export { default as SubmitBtn } from './SubmitBtn';
+export { default as CartTotals } from './CartTotals';
+export { default as CartItemsList } from './CartItemsList';
