@@ -11,7 +11,10 @@ const SubmitBtn = ({ text }) => {
       disabled={isSubmitting}
     >
       {isSubmitting ? (
-        <span className="loading loading-spinner">sending...</span>
+        <>
+          <span className="loading loading-spinner"></span>
+          sending...
+        </>
       ) : (
         text || 'submit'
       )}
