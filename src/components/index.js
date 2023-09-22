@@ -12,3 +12,6 @@ export { default as SectionTitle } from './SectionTitle';
 export { default as SubmitBtn } from './SubmitBtn';
 export { default as CartTotals } from './CartTotals';
 export { default as CartItemsList } from './CartItemsList';
+export { default as CheckoutForm } from './CheckoutForm';
+export { default as OrdersList } from './OrdersList';
+export { default as ComplexPaginationContainer } from './ComplexPaginationContainer';
